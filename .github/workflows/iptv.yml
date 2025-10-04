@@ -5,15 +5,19 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 22 * * *' # 每天UTC时间22点自动运行，相当于北京时间第二天早晨6点
-  workflow_dispatch: # 手动触发选项 - 这个应该与push、schedule并列
+  workflow_dispatch: # 手动触发选项
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 添加写入权限
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v4
