@@ -1,5 +1,7 @@
 import requests
 import re
+import json
+import datetime
 from collections import defaultdict
 
 # =============================================
@@ -37,6 +39,7 @@ CHANNEL_CATEGORIES = {
                  '爱情喜剧', '超级电视剧', '超级综艺', '金牌综艺', '武搏世界', '农业致富', '炫舞未来',
                  '精品体育', '精品大剧', '精品纪录', '精品萌宠', '怡伴健康'],
 }
+
 # =============================================
 # 新手注意：这里是频道名称映射区域，可以按需添加别名
 # =============================================
@@ -241,6 +244,7 @@ CHANNEL_MAPPING = {
     "精品萌宠": ["NewTV精品萌宠", "NewTV 精品萌宠", "newtv 精品萌宠", "NEWTV 精品萌宠", "NEWTV精品萌宠"],
     "怡伴健康": ["NewTV怡伴健康", "NewTV 怡伴健康", "newtv 怡伴健康", "NEWTV 怡伴健康", "NEWTV怡伴健康"],
 }
+
 # =============================================
 # 新手注意：这里是核心配置区域，需要重点关注
 # =============================================
@@ -328,7 +332,13 @@ def is_preferred_url(url: str) -> bool:
 def fetch_lines(url: str):
     """下载并分行返回内容"""
     try:
-        resp = requests.get(url, timeout=15)
+        # 添加重试机制
+        session = requests.Session()
+        session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
+        
+        resp = session.get(url, timeout=15)
         resp.encoding = "utf-8"
         return resp.text.splitlines()
     except Exception as e:
@@ -404,33 +414,147 @@ def create_m3u_file(all_channels, filename="iptv.m3u"):
                     for url in sorted_urls:
                         f.write(f"{url}\n")
 
+def generate_statistics_log(all_channels, source_stats, user_sources):
+    """生成详细的统计日志"""
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    with open("iptv_statistics.log", "w", encoding="utf-8") as log_file:
+        log_file.write("=" * 60 + "\n")
+        log_file.write(f"📊 IPTV 源统计报告 - {timestamp}\n")
+        log_file.write("=" * 60 + "\n\n")
+        
+        # 总体统计
+        total_channels = len(all_channels)
+        total_sources = sum(len(urls) for urls in all_channels.values())
+        
+        # 统计IPv4和IPv6数量
+        ipv4_count = 0
+        ipv6_count = 0
+        for urls in all_channels.values():
+            for url in urls:
+                if re.match(ipv4_regex, url):
+                    ipv4_count += 1
+                elif re.match(ipv6_regex, url):
+                    ipv6_count += 1
+        
+        log_file.write("📈 总体统计:\n")
+        log_file.write(f"   总频道数: {total_channels}\n")
+        log_file.write(f"   总源数量: {total_sources}\n")
+        log_file.write(f"   IPv4源: {ipv4_count}\n")
+        log_file.write(f"   IPv6源: {ipv6_count}\n")
+        log_file.write(f"   源类型比例: IPv4 {ipv4_count/total_sources*100:.1f}% | IPv6 {ipv6_count/total_sources*100:.1f}%\n\n")
+        
+        # 按分类统计
+        log_file.write("📺 频道分类统计:\n")
+        category_stats = {}
+        for category, channels in CHANNEL_CATEGORIES.items():
+            category_channels = [ch for ch in channels if ch in all_channels and all_channels[ch]]
+            category_count = len(category_channels)
+            category_sources = sum(len(all_channels[ch]) for ch in category_channels if ch in all_channels)
+            category_stats[category] = {
+                'channels': category_count,
+                'sources': category_sources
+            }
+            log_file.write(f"   {category}: {category_count}个频道, {category_sources}个源\n")
+        
+        log_file.write("\n")
+        
+        # 源质量评估
+        log_file.write("🔍 源质量评估:\n")
+        for url, stats in source_stats.items():
+            source_type = "用户添加" if url in user_sources else "默认源"
+            quality_rating = "★★★★★" if stats['channels'] > 50 else "★★★★" if stats['channels'] > 30 else "★★★" if stats['channels'] > 15 else "★★" if stats['channels'] > 5 else "★"
+            
+            log_file.write(f"   {source_type}: {url}\n")
+            log_file.write(f"     频道数: {stats['channels']} | IPv4: {stats['ipv4']} | IPv6: {stats['ipv6']} | 质量: {quality_rating}\n")
+        
+        log_file.write("\n")
+        
+        # 推荐最佳源
+        if user_sources:
+            best_user_source = max(
+                [(url, stats) for url, stats in source_stats.items() if url in user_sources],
+                key=lambda x: x[1]['channels'],
+                default=(None, None)
+            )
+            
+            if best_user_source[0]:
+                log_file.write("🏆 最佳用户源推荐:\n")
+                log_file.write(f"   {best_user_source[0]}\n")
+                log_file.write(f"   该源贡献了 {best_user_source[1]['channels']} 个频道\n")
+                log_file.write(f"   包含 {best_user_source[1]['ipv4']} 个IPv4源和 {best_user_source[1]['ipv6']} 个IPv6源\n\n")
+        
+        # 频道数量排行榜
+        log_file.write("📊 频道源数量排行榜 (前10):\n")
+        channel_source_count = [(ch, len(urls)) for ch, urls in all_channels.items()]
+        channel_source_count.sort(key=lambda x: x[1], reverse=True)
+        
+        for i, (channel, count) in enumerate(channel_source_count[:10]):
+            log_file.write(f"   {i+1:2d}. {channel}: {count}个源\n")
+        
+        log_file.write("\n" + "=" * 60 + "\n")
+        log_file.write("💡 提示: 建议优先使用IPv4源，IPv6源作为备选\n")
+        log_file.write("=" * 60 + "\n")
+    
+    print(f"📋 详细统计已保存到 iptv_statistics.log")
+
 # =============================================
 # 新手注意：这里是添加IPTV源的地方，请在这里添加您的稳定源
 # =============================================
 
 def main():
     # 在这里添加您的稳定IPTV源URL
-    urls = [
+    # 默认源（前3个）
+    default_sources = [
         "https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u",  # 稳定源
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",  # V6源1
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",  # V4源1
+    ]
+    
+    # 用户添加的源（第4个及以后）
+    user_sources = [
         "http://tv.html-5.me/i/9390107.txt",  # 个人自用源1
         # 可以继续添加更多源支持txt和m3u格式的
         # "https://更多稳定源URL",
     ]
+    
+    urls = default_sources + user_sources
 
     all_channels = defaultdict(list)
+    source_stats = {}  # 记录每个源的统计信息
 
     # 从每个URL获取频道数据
     for url in urls:
         print(f"📡 正在获取: {url}")
         lines = fetch_lines(url)
         parsed = parse_lines(lines)
+        
+        # 统计该源的IPv4和IPv6数量
+        ipv4_count = 0
+        ipv6_count = 0
+        for urls_list in parsed.values():
+            for url_item in urls_list:
+                if re.match(ipv4_regex, url_item):
+                    ipv4_count += 1
+                elif re.match(ipv6_regex, url_item):
+                    ipv6_count += 1
+        
+        source_stats[url] = {
+            'channels': len(parsed),
+            'ipv4': ipv4_count,
+            'ipv6': ipv6_count
+        }
+        
+        # 合并到总频道列表
         for ch, urls_list in parsed.items():
             all_channels[ch].extend(urls_list)
-        print(f"✅ 从该源获取到 {len(parsed)} 个频道")
+        
+        print(f"✅ 从该源获取到 {len(parsed)} 个频道 (IPv4: {ipv4_count}, IPv6: {ipv6_count})")
 
-    # 统计信息
+    # 生成统计日志
+    generate_statistics_log(all_channels, source_stats, user_sources)
+    
+    # 控制台简要统计
     total_channels = len(all_channels)
     total_sources = sum(len(urls) for urls in all_channels.values())
     
