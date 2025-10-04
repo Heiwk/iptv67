@@ -225,13 +225,7 @@ def main():
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",  # V6源1
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",  # V4源1
         "http://tv.html-5.me//i/9390107.txt",  # 个人自用源1
-        
-
-        
-        # "https://您的第一个稳定源URL",  # 取消注释并替换为您的第一个稳定源
-        # "https://您的第二个稳定源URL",  # 取消注释并替换为您的第二个稳定源
-        
-        # 可以继续添加更多源
+        # 可以继续添加更多源支持txt和m3u格式的
         # "https://更多稳定源URL",
     ]
 
