@@ -68,11 +68,11 @@ def main():
 工作流运行完成后，播放列表地址为：
 text
 
-https://raw.githubusercontent.com/您的用户名/仓库名/main/output/result.m3u
+https://raw.githubusercontent.com/您的用户名/仓库名/main/iptv.m3u
 
 自动更新设置
 
-工作流可配置定时自动运行，在 .github/workflows/main.yml 中修改cron表达式调整频率。
+工作流可配置定时自动运行，在 .github/workflows/iptv.yml 中修改cron表达式调整频率。
 💻 命令行运行
 环境准备
 bash
