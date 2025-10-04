@@ -17,6 +17,9 @@ CHANNEL_CATEGORIES = {
                  '湖南卫视', '辽宁卫视', '黑龙江卫视', '吉林卫视', '内蒙古卫视', '宁夏卫视', '山西卫视', '陕西卫视', '甘肃卫视',
                  '青海卫视', '新疆卫视', '西藏卫视', '三沙卫视', '厦门卫视', '兵团卫视', '延边卫视', '安多卫视', '康巴卫视', '农林卫视', '山东教育',
                  'CETV1', 'CETV2', 'CETV3', 'CETV4', '早期教育'],
+    "山东专属频道": ['山东卫视', '山东齐鲁', '山东综艺' , '山东少儿',  '山东生活',
+                 '山东新闻', '山东国际', '山东体育', '山东文旅', '山东农科','山东居家购物',
+                 '浙江卫视', '江苏卫视', '东方卫视', '深圳卫视', '北京卫视'],
     "港澳频道": ['凤凰中文', '凤凰资讯', '凤凰香港','凤凰电影'],
     "电影频道": ['CHC动作电影', 'CHC家庭影院', 'CHC影迷电影', '淘电影',
                  '淘精彩', '淘剧场','星空卫视', '黑莓电影', '东北热剧',
@@ -219,6 +222,9 @@ def main():
     # 在这里添加您的稳定IPTV源URL
     urls = [
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",  # 示例源1
+        "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",
+        "https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u",
+        
         # "https://您的第一个稳定源URL",  # 取消注释并替换为您的第一个稳定源
         # "https://您的第二个稳定源URL",  # 取消注释并替换为您的第二个稳定源
         
