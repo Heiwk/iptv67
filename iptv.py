@@ -221,9 +221,12 @@ def create_m3u_file(all_channels, filename="iptv.m3u"):
 def main():
     # 在这里添加您的稳定IPTV源URL
     urls = [
-        "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",  # 示例源1
-        "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",
-        "https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u",
+        "https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u",  # 稳定源
+        "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",  # V6源1
+        "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",  # V4源1
+        "http://tv.html-5.me//i/9390107.txt",  # 个人自用源1
+        
+
         
         # "https://您的第一个稳定源URL",  # 取消注释并替换为您的第一个稳定源
         # "https://您的第二个稳定源URL",  # 取消注释并替换为您的第二个稳定源
