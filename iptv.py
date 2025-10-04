@@ -414,7 +414,7 @@ def main():
         "https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u",  # 稳定源
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",  # V6源1
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",  # V4源1
-        "http://tv.html-5.me//i/9390107.txt",  # 个人自用源1
+        "http://tv.html-5.me/i/9390107.txt",  # 个人自用源1
         # 可以继续添加更多源支持txt和m3u格式的
         # "https://更多稳定源URL",
     ]
