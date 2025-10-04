@@ -2,13 +2,12 @@ import requests
 import re
 import json
 import datetime
+import os
 from collections import defaultdict
 
 # =============================================
-# 新手注意：这里是频道分类区域，可以按需修改
-# =============================================
-
 # 频道分类（正规区域）
+# =============================================
 CHANNEL_CATEGORIES = {
     "央视频道": ['CCTV1', 'CCTV2', 'CCTV3', 'CCTV4', 'CCTV4欧洲', 'CCTV4美洲', 'CCTV5', 'CCTV5+', 'CCTV6', 'CCTV7', 'CCTV8', 'CCTV9',
                  'CCTV10', 'CCTV11', 'CCTV12', 'CCTV13', 'CCTV14', 'CCTV15', 'CCTV16', 'CCTV17', '兵器科技', '风云音乐', '风云足球',
@@ -41,9 +40,8 @@ CHANNEL_CATEGORIES = {
 }
 
 # =============================================
-# 新手注意：这里是频道名称映射区域，可以按需添加别名
-# =============================================
 # 频道映射（别名 -> 规范名）
+# =============================================
 CHANNEL_MAPPING = {
     # 央视频道
     "CCTV1": ["CCTV-1", "CCTV-1 HD", "CCTV-1 综合"],
@@ -246,8 +244,9 @@ CHANNEL_MAPPING = {
 }
 
 # =============================================
-# 新手注意：这里是核心配置区域，需要重点关注
+# 核心配置
 # =============================================
+
 # 正则表达式 - 匹配IPv4和IPv6地址
 ipv4_regex = r"http://\d+\.\d+\.\d+\.\d+(?::\d+)?"
 ipv6_regex = r"http://\[[0-9a-fA-F:]+\]"
@@ -292,6 +291,10 @@ def is_preferred_url(url: str) -> bool:
         if re.search(pattern, url, re.IGNORECASE):
             return True
     return False
+
+# =============================================
+# 核心功能函数
+# =============================================
 
 def fetch_lines(url: str):
     """下载并分行返回内容"""
@@ -411,7 +414,11 @@ def generate_statistics_log(all_channels, source_stats, user_sources, m3u_filena
             log_file.write(f"   总源数量: {total_sources}\n")
             log_file.write(f"   IPv4源: {ipv4_count}\n")
             log_file.write(f"   IPv6源: {ipv6_count}\n")
-            log_file.write(f"   源类型比例: IPv4 {ipv4_count/total_sources*100:.1f}% | IPv6 {ipv6_count/total_sources*100:.1f}%\n\n")
+            if total_sources > 0:
+                log_file.write(f"   源类型比例: IPv4 {ipv4_count/total_sources*100:.1f}% | IPv6 {ipv6_count/total_sources*100:.1f}%\n")
+            else:
+                log_file.write(f"   源类型比例: 无可用源\n")
+            log_file.write("\n")
             
             # 按分类统计
             log_file.write("📺 频道分类统计:\n")
@@ -441,13 +448,10 @@ def generate_statistics_log(all_channels, source_stats, user_sources, m3u_filena
             
             # 推荐最佳源
             if user_sources:
-                best_user_source = max(
-                    [(url, stats) for url, stats in source_stats.items() if url in user_sources],
-                    key=lambda x: x[1]['channels'],
-                    default=(None, None)
-                )
-                
-                if best_user_source[0]:
+                user_source_stats = [(url, stats) for url, stats in source_stats.items() if url in user_sources]
+                if user_source_stats:
+                    best_user_source = max(user_source_stats, key=lambda x: x[1]['channels'])
+                    
                     log_file.write("🏆 最佳用户源推荐:\n")
                     log_file.write(f"   {best_user_source[0]}\n")
                     log_file.write(f"   该源贡献了 {best_user_source[1]['channels']} 个频道\n")
@@ -455,7 +459,7 @@ def generate_statistics_log(all_channels, source_stats, user_sources, m3u_filena
             
             # 频道数量排行榜
             log_file.write("📊 频道源数量排行榜 (前10):\n")
-            channel_source_count = [(ch, len(urls)) for ch, urls in all_channels.items()]
+            channel_source_count = [(ch, len(urls)) for ch, urls in all_channels.items() if urls]
             channel_source_count.sort(key=lambda x: x[1], reverse=True)
             
             for i, (channel, count) in enumerate(channel_source_count[:10]):
@@ -538,6 +542,8 @@ def main():
     print(f"\n✅ 已生成 {m3u_filename}")
     if log_filename:
         print(f"✅ 已生成 {log_filename}")
+    else:
+        print(f"❌ 未能生成统计日志文件")
     print(f"   文件包含 {total_channels} 个频道，{total_sources} 个播放源")
     print(f"   播放源排序：IPv4优选 → IPv4其他 → IPv6优选 → IPv6其他")
 
