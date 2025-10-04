@@ -1,0 +1,36 @@
+name: Generate IPv6 M3U
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 22 * * *' # 每天UTC时间22点自动运行，相当于北京时间第二天早晨6点
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run script to generate m3u
+      run: python ipv6.py
+
+    - name: Commit and push if changes
+      run: |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git add ipv6.m3u
+        git diff --staged --quiet || git commit -m "Auto-update ipv6.m3u"
+        git push
