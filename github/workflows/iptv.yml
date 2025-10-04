@@ -1,4 +1,4 @@
-name: Generate IPv6 M3U
+name: Generate iptv M3U
 
 on:
   push:
@@ -25,12 +25,12 @@ jobs:
         pip install requests
 
     - name: Run script to generate m3u
-      run: python ipv6.py
+      run: python iptv.py
 
     - name: Commit and push if changes
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
         git add ipv6.m3u
-        git diff --staged --quiet || git commit -m "Auto-update ipv6.m3u"
+        git diff --staged --quiet || git commit -m "Auto-update iptv.m3u"
         git push
