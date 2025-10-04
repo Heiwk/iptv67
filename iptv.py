@@ -3,6 +3,7 @@ import re
 import json
 import datetime
 import os
+import urllib.parse
 from collections import defaultdict
 
 # =============================================
@@ -292,24 +293,111 @@ def is_preferred_url(url: str) -> bool:
             return True
     return False
 
+def obfuscate_url(url: str) -> str:
+    """
+    对URL进行模糊处理，保护隐私
+    保留域名和部分路径信息，其他用星号替换
+    """
+    try:
+        parsed = urllib.parse.urlparse(url)
+        
+        # 处理域名部分
+        domain_parts = parsed.netloc.split('.')
+        if len(domain_parts) >= 2:
+            # 保留主域名，子域名用星号替换
+            main_domain = '.'.join(domain_parts[-2:])
+            if len(domain_parts) > 2:
+                domain = '*' * 3 + '.' + main_domain
+            else:
+                domain = main_domain
+        else:
+            domain = '*' * 8  # 如果域名解析失败，用星号替代
+        
+        # 处理路径部分
+        path = parsed.path
+        if path:
+            path_parts = path.split('/')
+            # 保留最后一部分文件名（如果有）
+            if len(path_parts) > 1 and path_parts[-1]:
+                filename = path_parts[-1]
+                # 文件名也进行部分隐藏
+                if len(filename) > 8:
+                    filename = filename[:4] + '*' * 4 + filename[-4:]
+                path = '/***/' + filename
+            else:
+                path = '/***/'
+        else:
+            path = '/***/'
+        
+        # 重建URL
+        obfuscated_url = f"{parsed.scheme}://{domain}{path}"
+        
+        return obfuscated_url
+    
+    except Exception:
+        # 如果解析失败，返回完全模糊的URL
+        return "https://******/***/****"
+
+def create_robust_session():
+    """创建健壮的会话，包含重试机制和超时设置"""
+    session = requests.Session()
+    
+    # 设置请求头
+    session.headers.update({
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+        'Accept-Encoding': 'gzip, deflate',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+    })
+    
+    return session
+
+def fetch_lines_with_retry(url: str, max_retries=3):
+    """带重试机制的下载函数"""
+    session = create_robust_session()
+    
+    for attempt in range(max_retries):
+        try:
+            # 针对特定URL调整超时时间
+            timeout = 25 if 'tv.html-5.me' in url else 15
+            
+            response = session.get(url, timeout=timeout)
+            response.encoding = "utf-8"
+            
+            # 检查响应状态
+            if response.status_code == 200:
+                return response.text.splitlines()
+            else:
+                print(f"⚠️  HTTP状态码: {response.status_code}")
+                
+        except requests.exceptions.ConnectTimeout as e:
+            print(f"❌ 连接超时 (尝试 {attempt + 1}): {e}")
+        except requests.exceptions.ReadTimeout as e:
+            print(f"❌ 读取超时 (尝试 {attempt + 1}): {e}")
+        except requests.exceptions.ConnectionError as e:
+            print(f"❌ 连接错误 (尝试 {attempt + 1}): {e}")
+        except requests.exceptions.RequestException as e:
+            print(f"❌ 请求异常 (尝试 {attempt + 1}): {e}")
+        except Exception as e:
+            print(f"❌ 未知错误 (尝试 {attempt + 1}): {e}")
+        
+        # 如果不是最后一次尝试，等待后重试
+        if attempt < max_retries - 1:
+            wait_time = 2 ** attempt  # 指数退避：1, 2, 4秒
+            print(f"⏳ 等待 {wait_time} 秒后重试...")
+            time.sleep(wait_time)
+    
+    return []
+
 # =============================================
 # 核心功能函数
 # =============================================
 
 def fetch_lines(url: str):
-    """下载并分行返回内容"""
-    try:
-        session = requests.Session()
-        session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        })
-        
-        resp = session.get(url, timeout=15)
-        resp.encoding = "utf-8"
-        return resp.text.splitlines()
-    except Exception as e:
-        print(f"❌ 获取失败 {url}: {e}")
-        return []
+    """下载并分行返回内容（使用改进版本）"""
+    return fetch_lines_with_retry(url, max_retries=3)
 
 def parse_lines(lines):
     """解析 M3U 或 TXT 内容，返回 {频道名: [url列表]}"""
@@ -393,6 +481,7 @@ def generate_statistics_log(all_channels, source_stats, user_sources, m3u_filena
             log_file.write("=" * 60 + "\n")
             log_file.write(f"📊 IPTV 源统计报告 - {timestamp}\n")
             log_file.write(f"📺 对应文件: {m3u_filename}\n")
+            log_file.write("🔒 隐私保护: 所有源URL已进行模糊处理\n")
             log_file.write("=" * 60 + "\n\n")
             
             # 总体统计
@@ -435,25 +524,28 @@ def generate_statistics_log(all_channels, source_stats, user_sources, m3u_filena
             
             log_file.write("\n")
             
-            # 源质量评估
+            # 源质量评估（使用模糊处理的URL）
             log_file.write("🔍 源质量评估:\n")
             for url, stats in source_stats.items():
                 source_type = "用户添加" if url in user_sources else "默认源"
                 quality_rating = "★★★★★" if stats['channels'] > 50 else "★★★★" if stats['channels'] > 30 else "★★★" if stats['channels'] > 15 else "★★" if stats['channels'] > 5 else "★"
                 
-                log_file.write(f"   {source_type}: {url}\n")
+                # 使用模糊处理的URL
+                obfuscated_url = obfuscate_url(url)
+                log_file.write(f"   {source_type}: {obfuscated_url}\n")
                 log_file.write(f"     频道数: {stats['channels']} | IPv4: {stats['ipv4']} | IPv6: {stats['ipv6']} | 质量: {quality_rating}\n")
             
             log_file.write("\n")
             
-            # 推荐最佳源
+            # 推荐最佳源（使用模糊处理的URL）
             if user_sources:
                 user_source_stats = [(url, stats) for url, stats in source_stats.items() if url in user_sources]
                 if user_source_stats:
                     best_user_source = max(user_source_stats, key=lambda x: x[1]['channels'])
                     
                     log_file.write("🏆 最佳用户源推荐:\n")
-                    log_file.write(f"   {best_user_source[0]}\n")
+                    obfuscated_best_url = obfuscate_url(best_user_source[0])
+                    log_file.write(f"   {obfuscated_best_url}\n")
                     log_file.write(f"   该源贡献了 {best_user_source[1]['channels']} 个频道\n")
                     log_file.write(f"   包含 {best_user_source[1]['ipv4']} 个IPv4源和 {best_user_source[1]['ipv6']} 个IPv6源\n\n")
             
@@ -467,6 +559,7 @@ def generate_statistics_log(all_channels, source_stats, user_sources, m3u_filena
             
             log_file.write("\n" + "=" * 60 + "\n")
             log_file.write("💡 提示: 建议优先使用IPv4源，IPv6源作为备选\n")
+            log_file.write("🔒 隐私说明: 源URL已模糊处理以保护数据安全\n")
             log_file.write("=" * 60 + "\n")
         
         print(f"✅ 详细统计已保存到: {log_filepath}")
@@ -500,30 +593,41 @@ def main():
     # 从每个URL获取频道数据
     for url in urls:
         print(f"📡 正在获取: {url}")
-        lines = fetch_lines(url)
-        parsed = parse_lines(lines)
         
-        # 统计该源的IPv4和IPv6数量
-        ipv4_count = 0
-        ipv6_count = 0
-        for urls_list in parsed.values():
-            for url_item in urls_list:
-                if re.match(ipv4_regex, url_item):
-                    ipv4_count += 1
-                elif re.match(ipv6_regex, url_item):
-                    ipv6_count += 1
-        
-        source_stats[url] = {
-            'channels': len(parsed),
-            'ipv4': ipv4_count,
-            'ipv6': ipv6_count
-        }
-        
-        # 合并到总频道列表
-        for ch, urls_list in parsed.items():
-            all_channels[ch].extend(urls_list)
-        
-        print(f"✅ 从该源获取到 {len(parsed)} 个频道 (IPv4: {ipv4_count}, IPv6: {ipv6_count})")
+        # 对问题URL使用更宽松的超时设置
+        if 'tv.html-5.me' in url:
+            print("⚠️  检测到问题URL，使用增强的重试机制...")
+            lines = fetch_lines_with_retry(url, max_retries=5)  # 更多重试次数
+        else:
+            lines = fetch_lines_with_retry(url, max_retries=3)
+            
+        if lines:
+            parsed = parse_lines(lines)
+            
+            # 统计该源的IPv4和IPv6数量
+            ipv4_count = 0
+            ipv6_count = 0
+            for urls_list in parsed.values():
+                for url_item in urls_list:
+                    if re.match(ipv4_regex, url_item):
+                        ipv4_count += 1
+                    elif re.match(ipv6_regex, url_item):
+                        ipv6_count += 1
+            
+            source_stats[url] = {
+                'channels': len(parsed),
+                'ipv4': ipv4_count,
+                'ipv6': ipv6_count
+            }
+            
+            # 合并到总频道列表
+            for ch, urls_list in parsed.items():
+                all_channels[ch].extend(urls_list)
+            
+            print(f"✅ 从该源获取到 {len(parsed)} 个频道 (IPv4: {ipv4_count}, IPv6: {ipv6_count})")
+        else:
+            print(f"❌ 无法从该源获取数据: {url}")
+            source_stats[url] = {'channels': 0, 'ipv4': 0, 'ipv6': 0}
 
     # 生成M3U文件
     m3u_filename = create_m3u_file(all_channels)
@@ -546,6 +650,7 @@ def main():
         print(f"❌ 未能生成统计日志文件")
     print(f"   文件包含 {total_channels} 个频道，{total_sources} 个播放源")
     print(f"   播放源排序：IPv4优选 → IPv4其他 → IPv6优选 → IPv6其他")
+    print(f"🔒 隐私保护: 日志文件中的源URL已进行模糊处理")
 
 if __name__ == "__main__":
     main()
