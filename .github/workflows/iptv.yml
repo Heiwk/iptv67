@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 22 * * *' # 每天UTC时间22点自动运行，相当于北京时间第二天早晨6点
+    - cron: '0 22 * * *'# 每天UTC时间22点自动运行，相当于北京时间第二天早晨6点
   workflow_dispatch: # 手动触发选项
 
 jobs:
@@ -32,10 +32,14 @@ jobs:
     - name: Run script to generate m3u
       run: python iptv.py
 
+    - name: Debug - List generated files
+      run: ls -la
+
     - name: Commit and push if changes
       run: |
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-        git add iptv.m3u
-        git diff --staged --quiet || git commit -m "Auto-update iptv.m3u"
+        # 添加日志文件到git
+        git add iptv.m3u iptv统计数据.log
+        git diff --staged --quiet || git commit -m "Auto-update IPTV files"
         git push
