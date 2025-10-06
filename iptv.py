@@ -580,6 +580,8 @@ def main():
         "https://ghfast.top/https://raw.githubusercontent.com/moonkeyhoo/iptv-api/master/output/result.m3u",
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv6.m3u",
         "https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt",
+        "http://106.53.99.30/2025.txt",
+        "https://raw.githubusercontent.com/Heiwk/iptv67/refs/heads/main/iptv.m3u",
     ]
     
     user_sources = [
