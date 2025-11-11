@@ -9,14 +9,11 @@ http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226163/1.m3u8
 http://111.221.137.155:44330/tsfile/live/0002_1.m3u8?key=txiptv
 http://[2409:8087:1a01:df::406f]:80/wh7f454c46tw1241164675_1575082505/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8?icpid=88888888&RTS=1713968070&from=4&hms_devid=692&prioritypopid=4&online=1713968070&vqe=3
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226371/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226122/1.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV3.png" group-title="央视频道",CCTV3
 http://113.106.171.234:8899/rtp/239.20.0.236:2270
 http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8
-http://[2409:8087:1a01:df::4041]/TVOD/88888888/224/3221225799/main.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638727c125355/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUSPTZ4CK5oLfjaEYe9dogNMUNNEYLCPUtKY62j1Wp5u04wipypKUQ1TTuR2lXvBl5YpHqBJmlA19x22TD9bUOjk
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226165/1.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV4.png" group-title="央视频道",CCTV4
@@ -89,36 +86,40 @@ http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226143/1.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV8.png" group-title="央视频道",CCTV8
 http://111.221.137.155:44330/tsfile/live/0008_1.m3u8?key=txiptv
 http://[2409:8087:1a01:df::4051]:80/TVOD/88888888/224/3221225795/main.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226451/1.m3u8
 http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226167/1.m3u8
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV9.png" group-title="央视频道",CCTV9
 http://1.31.14.70:54321/hls/10/index.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226236/1.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV10.png" group-title="央视频道",CCTV10
 http://1.31.14.70:54321/hls/11/index.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226449/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226464/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226169/1.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV11.png" group-title="央视频道",CCTV11
 http://111.221.137.155:44330/tsfile/live/0011_1.m3u8?key=txiptv
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226334/1.m3u8
 http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226145/1.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV12.png" group-title="央视频道",CCTV12
 http://111.221.137.155:44330/tsfile/live/0012_1.m3u8?key=txiptv
 http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2knJCFLHz_HqfBZXNGeA1A%7E_eNUb
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226126/1.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV13.png" group-title="央视频道",CCTV13
 http://106.53.99.30/tv/cctv13.php
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226128/1.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV14.png" group-title="央视频道",CCTV14
 http://111.221.137.155:44330/tsfile/live/0014_1.m3u8?key=txiptv
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226229/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226150/1.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV15.png" group-title="央视频道",CCTV15
 http://111.221.137.155:44330/tsfile/live/0015_1.m3u8?key=txiptv
 http://[2409:8087:1a01:df::4033]:80/TVOD/88888888/224/3221226127/main.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226444/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226147/1.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV16.png" group-title="央视频道",CCTV16
 http://222.95.140.66:58888/udp/239.49.0.109:8000
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226887/1.m3u8
+http://[2409:8087:74f0:22::4]:6410/270000001128/9900000016/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226120/1.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV17.png" group-title="央视频道",CCTV17
 http://111.162.165.87:8086/udp/225.1.2.52:5002
@@ -719,9 +720,7 @@ http://122.189.103.228:8010/rtp/228.0.0.121:6108
 http://122.189.103.229:8888/rtp/228.0.0.121:6108
 http://114.254.33.58:18888/rtp/239.3.1.209:8052
 http://114.254.39.224:8888/rtp/239.3.1.209:8052
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226244/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226487/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226501/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225733/1.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/浙江卫视.png" group-title="卫视频道",浙江卫视
 http://106.53.99.30/tv/hot.php?id=zjws
@@ -969,9 +968,8 @@ http://114.254.33.58:18888/rtp/239.3.1.135:8028
 http://114.254.39.224:8888/rtp/239.3.1.135:8028
 http://111.162.205.166:8686/rtp/225.1.1.126:5002
 http://117.12.150.38:4022/rtp/225.1.1.126:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226242/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226366/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226491/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/ott.mobaibox.com/PLTV/4/224/3221227552/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225720/1.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/东方卫视.png" group-title="卫视频道",东方卫视
 http://106.53.99.30/tv/migu.php?id=dfws
@@ -1220,9 +1218,7 @@ http://114.254.33.58:18888/rtp/239.3.1.134:8020
 http://114.254.39.224:8888/rtp/239.3.1.134:8020
 http://111.162.205.166:8686/rtp/225.1.1.117:5002
 http://117.12.150.38:4022/rtp/225.1.1.117:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226495/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226573/1.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/ott.mobaibox.com/PLTV/4/224/3221227555/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225728/1.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/北京卫视.png" group-title="卫视频道",北京卫视
 http://106.53.99.30/tv/bj.php?id=bjws
@@ -1355,7 +1351,6 @@ http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225724/1.m3u8
 http://106.53.99.30/tv/migu.php?id=gdws
 http://106.53.99.30/tv/api.php?id=gdws4k
 http://106.53.99.30/tv/hot.php?id=gdws
-http://111.221.137.155:44330/tsfile/live/0125_1.m3u8?key=txiptv
 http://171.213.203.158:4000/rtp/239.11.0.115:5140
 http://171.213.227.120:4000/rtp/239.11.0.115:5140
 http://183.220.107.138:4022/rtp/239.11.0.115:5140
@@ -1483,7 +1478,7 @@ http://114.254.33.58:18888/rtp/239.3.1.142:8048
 http://114.254.39.224:8888/rtp/239.3.1.142:8048
 http://111.162.205.166:8686/rtp/225.1.1.116:5002
 http://117.12.150.38:4022/rtp/225.1.1.116:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226238/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E2MGyx659D_aaDPP0qt3NgA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225731/1.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/广西卫视.png" group-title="卫视频道",广西卫视
 http://106.53.99.30/tv/migu.php?id=gxws
@@ -1797,9 +1792,9 @@ http://114.254.33.58:18888/rtp/239.3.1.45:8304
 http://114.254.39.224:8888/rtp/239.3.1.45:8304
 http://111.162.205.166:8686/rtp/225.1.2.82:5002
 http://117.12.150.38:4022/rtp/225.1.2.82:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226574/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226922/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/ott.mobaibox.com/PLTV/4/224/3221228139/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001183/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226154/1.m3u8
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/河北卫视.png" group-title="卫视频道",河北卫视
 http://106.53.99.30/tv/api.php?id=hebws
@@ -1921,6 +1916,7 @@ http://[2409:8087:1a01:df::4035]:80/TVOD/88888888/224/3221225961/main.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226107/1.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/河南卫视.png" group-title="卫视频道",河南卫视
 http://1.94.31.214/php/hntv.php?id=hnws
+http://61.184.46.85:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 http://106.53.99.30/tv/migu.php?id=hnws
 http://106.53.99.30/tv/api.php?id=henws
 http://106.53.99.30/tv/hntv.php?id=hnws
@@ -2038,7 +2034,6 @@ http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226132/1.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/湖北卫视.png" group-title="卫视频道",湖北卫视
 http://106.53.99.30/tv/migu.php?id=hubws
 http://106.53.99.30/tv/hot.php?id=hubws
-http://111.221.137.155:44330/tsfile/live/0132_1.m3u8?key=txiptv
 http://171.213.203.158:4000/rtp/239.11.0.74:5140
 http://171.213.227.120:4000/rtp/239.11.0.74:5140
 http://183.220.107.138:4022/rtp/239.11.0.74:5140
@@ -2152,6 +2147,7 @@ http://114.254.33.58:18888/rtp/239.3.1.138:8044
 http://114.254.39.224:8888/rtp/239.3.1.138:8044
 http://111.162.205.166:8686/rtp/225.1.1.147:5002
 http://117.12.150.38:4022/rtp/225.1.1.147:5002
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225729/1.m3u8
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/江西卫视.png" group-title="卫视频道",江西卫视
 http://203.205.191.53/yun-live.jxtvcn.com.cn/live-jxtv/tv_jxtv1.m3u8
@@ -2278,9 +2274,8 @@ http://117.12.150.38:4022/rtp/225.1.2.29:5002
 http://[2409:8087:1a01:df::4027]:80/TVOD/88888888/224/3221225935/main.m3u8
 http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221225740/1.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/四川卫视.png" group-title="卫视频道",四川卫视
-http://171.116.216.113:10010/rtp/226.0.1.250:2126
 http://106.53.99.30/tv/hot.php?id=scws
-http://111.221.137.155:44330/tsfile/live/1017_1.m3u8?key=txiptv
+http://171.116.216.113:10010/rtp/226.0.1.250:2126
 http://171.213.203.158:4000/rtp/239.11.0.78:5140
 http://171.213.227.120:4000/rtp/239.11.0.78:5140
 http://183.220.107.138:4022/rtp/239.11.0.78:5140
@@ -2395,13 +2390,14 @@ http://114.254.33.58:18888/rtp/239.3.1.29:8288
 http://114.254.39.224:8888/rtp/239.3.1.29:8288
 http://111.162.205.166:8686/rtp/225.1.1.123:5002
 http://117.12.150.38:4022/rtp/225.1.1.123:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226523/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226924/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:2001:20:2800:0:df6e:eb08]:80/ott.mobaibox.com/PLTV/4/224/3221228171/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001130/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226152/1.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/重庆卫视.png" group-title="卫视频道",重庆卫视
-http://111.221.137.155:44330/tsfile/live/0142_1.m3u8?key=txiptv
 http://106.53.99.30/tv/migu.php?id=cqws
 http://106.53.99.30/tv/hot.php?id=cqws
+http://111.221.137.155:44330/tsfile/live/0142_1.m3u8?key=txiptv
 http://171.213.203.158:4000/rtp/239.11.0.116:5140
 http://171.213.227.120:4000/rtp/239.11.0.116:5140
 http://183.220.107.138:4022/rtp/239.11.0.116:5140
@@ -2520,8 +2516,9 @@ http://114.254.33.58:18888/rtp/239.3.1.122:8160
 http://114.254.39.224:8888/rtp/239.3.1.122:8160
 http://111.162.205.166:8686/rtp/225.1.1.155:5002
 http://117.12.150.38:4022/rtp/225.1.1.155:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226337/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226518/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226963/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjTXsJprEx2nE38tdvu5lhA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001129/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/ott.mobaibox.com/PLTV/4/224/3221228133/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226171/1.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/贵州卫视.png" group-title="卫视频道",贵州卫视
 http://106.53.99.30/tv/migu.php?id=gzws
@@ -2642,7 +2639,8 @@ http://114.254.39.224:8888/rtp/239.3.1.149:8076
 http://111.162.205.166:8686/rtp/225.1.2.28:5002
 http://117.12.150.38:4022/rtp/225.1.2.28:5002
 http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225974/main.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226497/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EnqBF03rFwPucF8ODtWxLQQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/ott.mobaibox.com/PLTV/4/224/3221228136/index.m3u8
 http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226173/1.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/云南卫视.png" group-title="卫视频道",云南卫视
 http://106.53.99.30/tv/migu.php?id=ynws
@@ -2753,15 +2751,14 @@ http://114.254.33.58:18888/rtp/239.3.1.26:8108
 http://114.254.39.224:8888/rtp/239.3.1.26:8108
 http://111.162.205.166:8686/rtp/225.1.1.61:5002
 http://117.12.150.38:4022/rtp/225.1.1.61:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226543/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226928/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227028/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGfQPqRNVeBjTMsZ48qu0SA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001223/index.m3u8
 http://[2409:8087:4402:20:1:1216:401:14]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226660/index.m3u8
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227181/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225853/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:1e02:20::1a]/PLTV/11/224/3221226151/1.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/天津卫视.png" group-title="卫视频道",天津卫视
 http://113.106.171.234:8899/rtp/239.20.0.89:3044
-http://111.221.137.155:44330/tsfile/live/0132_2.m3u8?key=txiptv
 http://171.213.203.158:4000/rtp/239.11.0.123:5140
 http://171.213.227.120:4000/rtp/239.11.0.123:5140
 http://183.220.107.138:4022/rtp/239.11.0.123:5140
@@ -2891,9 +2888,8 @@ http://114.254.39.224:8888/rtp/239.3.1.141:1234
 http://111.162.205.166:8686/rtp/225.1.1.111:5002
 http://117.12.150.38:4022/rtp/225.1.1.111:5002
 http://[2409:8087:1a01:df::4030]:80/TVOD/88888888/224/3221225972/main.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226246/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226489/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226502/1.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001036/index.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/ott.mobaibox.com/PLTV/4/224/3221227488/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225742/1.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/安徽卫视.png" group-title="卫视频道",安徽卫视
 http://111.221.137.155:44330/tsfile/live/0120_1.m3u8?key=txiptv
@@ -3018,10 +3014,9 @@ http://117.12.150.38:4022/rtp/225.1.1.127:5002
 http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2802330256_375747539/ott.mobaibox.com/PLTV/3/224/3221227558/index.m3u8?icpid=3&RTS=1668597596&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225739/1.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/湖南卫视.png" group-title="卫视频道",湖南卫视
-http://106.53.99.30/tv/api.php?id=hnws4k
-http://171.116.216.113:10010/rtp/226.0.1.246:2125
 http://106.53.99.30/tv/migu.php?id=hunws
 http://106.53.99.30/tv/hot.php?id=hunws
+http://106.53.99.30/tv/api.php?id=hnws4k
 http://171.213.203.158:4000/rtp/239.11.0.119:5140
 http://171.213.227.120:4000/rtp/239.11.0.119:5140
 http://183.220.107.138:4022/rtp/239.11.0.119:5140
@@ -3149,7 +3144,10 @@ http://114.254.33.58:18888/rtp/239.3.1.132:8012
 http://114.254.39.224:8888/rtp/239.3.1.132:8012
 http://111.162.205.166:8686/rtp/225.1.1.114:5002
 http://117.12.150.38:4022/rtp/225.1.1.114:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226493/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226509/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EIGb_ib7rnBX9_sANRKq9sg%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000003873458%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000007253514_0%2CEND&GuardEncType=2
+http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001026/index.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001026/index.m3u8
+http://[2409:8087:4402:20:1:1216:401:3b]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226659/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225726/1.m3u8
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/辽宁卫视.png" group-title="卫视频道",辽宁卫视
 http://106.53.99.30/tv/migu.php?id=lnws
@@ -3271,13 +3269,13 @@ http://114.254.33.58:18888/rtp/239.3.1.210:8056
 http://114.254.39.224:8888/rtp/239.3.1.210:8056
 http://111.162.205.166:8686/rtp/225.1.1.154:5002
 http://117.12.150.38:4022/rtp/225.1.1.154:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226327/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226336/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226488/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226966/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E6qJH8Fd-zgCGx3P-Ce86cA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227141/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227141/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225747/1.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
-http://113.106.171.234:8899/rtp/239.20.0.91:3036
 http://106.53.99.30/tv/hot.php?id=hljws
+http://113.106.171.234:8899/rtp/239.20.0.91:3036
 http://171.213.203.158:4000/rtp/239.11.0.36:5140
 http://171.213.227.120:4000/rtp/239.11.0.36:5140
 http://183.220.107.138:4022/rtp/239.11.0.36:5140
@@ -3396,6 +3394,7 @@ http://114.254.33.58:18888/rtp/239.3.1.133:8016
 http://114.254.39.224:8888/rtp/239.3.1.133:8016
 http://111.162.205.166:8686/rtp/225.1.1.115:5002
 http://117.12.150.38:4022/rtp/225.1.1.115:5002
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E7UiKL56-L86ihmTWaZ6csw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225722/1.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/吉林卫视.png" group-title="卫视频道",吉林卫视
 http://106.53.99.30/tv/migu.php?id=jlws
@@ -3507,9 +3506,8 @@ http://114.254.33.58:18888/rtp/239.3.1.240:8172
 http://114.254.39.224:8888/rtp/239.3.1.240:8172
 http://111.162.205.166:8686/rtp/225.1.2.26:5002
 http://117.12.150.38:4022/rtp/225.1.2.26:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226533/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226886/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226912/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227099/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226149/1.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视
 http://106.53.99.30/tv/migu.php?id=nmws
@@ -3578,7 +3576,7 @@ http://114.254.39.224:8888/rtp/239.3.1.43:8176
 http://111.162.205.166:8686/rtp/225.1.1.32:5002
 http://117.12.150.38:4022/rtp/225.1.1.32:5002
 http://[2409:8087:1a01:df::401a]:80/wh7f454c46tw3029083262_-802204014/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225634/index.m3u8?icpid=88888888&RTS=1713969858&from=4&hms_devid=128&prioritypopid=4&online=1713969858&vqe=3
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226530/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227018/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErN_hoRDwApMKnJqiNHvn9w%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226011/1.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/宁夏卫视.png" group-title="卫视频道",宁夏卫视
 http://106.53.99.30/tv/migu.php?id=nxws
@@ -3650,6 +3648,7 @@ http://111.162.205.166:8686/rtp/225.1.1.56:5002
 http://117.12.150.38:4022/rtp/225.1.1.56:5002
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001074/index.m3u8
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227254/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226092/1.m3u8
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/山西卫视.png" group-title="卫视频道",山西卫视
 http://106.53.99.30/tv/hot.php?id=sxiws
@@ -3722,13 +3721,12 @@ http://114.254.33.58:18888/rtp/239.3.1.42:8172
 http://114.254.39.224:8888/rtp/239.3.1.42:8172
 http://111.162.205.166:8686/rtp/225.1.1.50:5002
 http://117.12.150.38:4022/rtp/225.1.1.50:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226531/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226920/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225730/2/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226113/1.m3u8
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/陕西卫视.png" group-title="卫视频道",陕西卫视
 http://106.53.99.30/tv/migu.php?id=sxws
 http://106.53.99.30/tv/hot.php?id=sxws
-http://111.221.137.155:44330/tsfile/live/0114_1.m3u8?key=txiptv
 http://171.213.203.158:4000/rtp/239.11.0.54:5140
 http://171.213.227.120:4000/rtp/239.11.0.54:5140
 http://183.220.107.138:4022/rtp/239.11.0.54:5140
@@ -3811,8 +3809,8 @@ http://114.254.33.58:18888/rtp/239.3.1.41:8140
 http://114.254.39.224:8888/rtp/239.3.1.41:8140
 http://111.162.205.166:8686/rtp/225.1.1.41:5002
 http://117.12.150.38:4022/rtp/225.1.1.41:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226532/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226926/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225729/2/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226086/1.m3u8
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/甘肃卫视.png" group-title="卫视频道",甘肃卫视
 http://106.53.99.30/tv/migu.php?id=gsws
@@ -3912,10 +3910,10 @@ http://114.254.33.58:18888/rtp/239.3.1.49:8188
 http://114.254.39.224:8888/rtp/239.3.1.49:8188
 http://111.162.205.166:8686/rtp/225.1.1.30:5002
 http://117.12.150.38:4022/rtp/225.1.1.30:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226545/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226913/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Err-CLugPnTcUinEM8JeySg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8c02:21c:60::2b]/live.rxip.sc96655.com/live/gsws_4000.m3u8
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221225845/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221225845/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226090/1.m3u8
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/青海卫视.png" group-title="卫视频道",青海卫视
 http://106.53.99.30/tv/migu.php?id=qhws
@@ -4007,10 +4005,10 @@ http://114.254.33.58:18888/rtp/239.3.1.44:8184
 http://114.254.39.224:8888/rtp/239.3.1.44:8184
 http://111.162.205.166:8686/rtp/225.1.1.54:5002
 http://117.12.150.38:4022/rtp/225.1.1.54:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226529/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226916/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227017/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EacviHy_ucMT27Ymf2iLtZA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001082/index.m3u8
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227119/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226105/1.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/新疆卫视.png" group-title="卫视频道",新疆卫视
 http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
@@ -4088,8 +4086,8 @@ http://114.254.39.224:8888/rtp/239.3.1.48:8160
 http://111.162.205.166:8686/rtp/225.1.1.35:5002
 http://117.12.150.38:4022/rtp/225.1.1.35:5002
 http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw993550557_162751766/ott.mobaibox.com/PLTV/3/224/3221228290/index.m3u8?icpid=3&RTS=1668604377&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226546/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226923/1.m3u8
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001065/index.m3u8
+http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221227248/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226088/1.m3u8
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/西藏卫视.png" group-title="卫视频道",西藏卫视
 http://106.53.99.30/tv/migu.php?id=xzws
@@ -4166,6 +4164,8 @@ http://111.162.205.166:8686/rtp/225.1.1.51:5002
 http://117.12.150.38:4022/rtp/225.1.1.51:5002
 http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001072/index.m3u8
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226847/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226847/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227033/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EdeTB7OZ9G_VNJk5C3t96fQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226012/1.m3u8
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/三沙卫视.png" group-title="卫视频道",三沙卫视
 http://113.106.171.234:8899/rtp/239.20.0.52:3192
@@ -4229,6 +4229,7 @@ http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221227172/index.m3u
 http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8?IAS
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226544/1.m3u8
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8
+http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8
 #EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/厦门卫视.png" group-title="卫视频道",厦门卫视
 http://219.141.46.245:8188/udp/238.255.2.205:5999
 http://113.106.171.234:8899/rtp/239.20.0.168:2134
@@ -4277,8 +4278,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:74F1:0021::0008]/270000001128/9900000058/index.m3u8
 http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226964/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226964/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226781/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000193/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226008/1.m3u8
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/兵团卫视.png" group-title="卫视频道",兵团卫视
@@ -4483,7 +4482,6 @@ http://111.162.205.166:8686/rtp/225.1.2.118:5002
 http://117.12.150.38:4022/rtp/225.1.2.118:5002
 #EXTINF:-1 tvg-name="CETV1" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CETV1.png" group-title="卫视频道",CETV1
 http://117.174.25.254:8188/rtp/239.0.0.51:5140
-http://171.116.216.113:10010/rtp/226.0.2.181:9360
 http://171.213.203.158:4000/rtp/239.11.0.139:5140
 http://171.213.227.120:4000/rtp/239.11.0.139:5140
 http://183.220.107.138:4022/rtp/239.11.0.139:5140
@@ -4859,9 +4857,7 @@ http://122.189.103.228:8010/rtp/228.0.0.121:6108
 http://122.189.103.229:8888/rtp/228.0.0.121:6108
 http://114.254.33.58:18888/rtp/239.3.1.209:8052
 http://114.254.39.224:8888/rtp/239.3.1.209:8052
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226244/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226487/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226501/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226957/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EjW26v5VaHGy1jQuIA-4EbA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225733/1.m3u8
 #EXTINF:-1 tvg-name="山东齐鲁" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/山东齐鲁.png" group-title="山东专属频道",山东齐鲁
 http://113.120.168.33:4022/udp/239.21.1.134:5002
@@ -4921,8 +4917,8 @@ http://144.255.32.180:8288/udp/239.21.1.141:5002
 http://144.255.44.48:7788/udp/239.21.1.141:5002
 http://144.255.81.58:8664/udp/239.21.1.141:5002
 #EXTINF:-1 tvg-name="山东文旅" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/山东文旅.png" group-title="山东专属频道",山东文旅
+http://139.129.231.228:50060/rtp/239.21.1.176:5002
 http://221.2.148.205:8154/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-http://58.57.40.22:9901/tsfile/live/1023_1.m3u8
 http://113.120.168.33:4022/udp/239.21.1.176:5002
 http://123.168.95.21:4000/udp/239.21.1.176:5002
 http://144.255.31.115:6688/udp/239.21.1.176:5002
@@ -5188,9 +5184,8 @@ http://114.254.33.58:18888/rtp/239.3.1.135:8028
 http://114.254.39.224:8888/rtp/239.3.1.135:8028
 http://111.162.205.166:8686/rtp/225.1.1.126:5002
 http://117.12.150.38:4022/rtp/225.1.1.126:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226242/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226366/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226491/1.m3u8
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226897/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7E0BmO6uHF7WFoTed__Xr3NQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+http://[2409:8087:2001:20:2800:0:df6e:eb17]:80/ott.mobaibox.com/PLTV/4/224/3221227552/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225720/1.m3u8
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/东方卫视.png" group-title="山东专属频道",东方卫视
 http://106.53.99.30/tv/migu.php?id=dfws
@@ -5439,9 +5434,7 @@ http://114.254.33.58:18888/rtp/239.3.1.134:8020
 http://114.254.39.224:8888/rtp/239.3.1.134:8020
 http://111.162.205.166:8686/rtp/225.1.1.117:5002
 http://117.12.150.38:4022/rtp/225.1.1.117:5002
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226495/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226573/1.m3u8
+http://[2409:8087:2001:20:2800:0:df6e:eb11]:80/ott.mobaibox.com/PLTV/4/224/3221227555/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225728/1.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/北京卫视.png" group-title="山东专属频道",北京卫视
 http://106.53.99.30/tv/bj.php?id=bjws
@@ -5631,6 +5624,7 @@ http://58.46.31.42:8188/udp/239.76.246.135:1234
 http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.m3u8
 http://106.53.99.30/tv/hot.php?id=fhhk
 http://42.92.195.203:10000/udp/239.255.30.123:8231
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221226251/index.m3u8
 #EXTINF:-1 tvg-name="凤凰电影" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰电影.png" group-title="港澳频道",凤凰电影
 http://39.107.120.164:8080/live/diyp_fhdy.flv
 http://106.116.243.172:9999/rtp/239.254.201.1:5214
@@ -5695,8 +5689,8 @@ http://117.12.150.38:4022/rtp/225.1.1.213:5002
 http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807601b19dd/index.m3u8?m3u8_level=2
 #EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CHC影迷电影.png" group-title="电影频道",CHC影迷电影
 http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
-http://218.15.183.23:9901/tsfile/live/23044_1.m3u8
 http://120.198.101.106:9901/tsfile/live/1053_1.m3u8?key=txiptv
+http://218.15.183.23:9901/tsfile/live/23044_1.m3u8
 http://106.53.99.30/tv/migu.php?id=chcym
 http://106.53.99.30/tv/hot.php?id=ymdy
 http://36.49.53.247:8800/rtp/239.37.0.187:5540
@@ -5759,7 +5753,6 @@ http://[2409:8087:1a01:df::4001]:80/TVOD/88888888/224/3221225681/main.m3u8
 http://[2409:8087:2001:20:2800:0:df6e:eb08]/ott.mobaibox.com/PLTV/3/224/3221227520/index.m3u8
 http://[2409:8087:1:20:20::27]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225764/2/index.m3u8
-http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225769/2/index.m3u8
 #EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/动漫秀场.png" group-title="儿童频道",动漫秀场
 http://111.162.165.87:8086/udp/225.1.1.134:5002
 http://171.213.203.158:4000/rtp/239.10.0.101:5140
@@ -5962,6 +5955,8 @@ http://114.254.33.58:18888/rtp/239.3.1.51:9252
 http://114.254.39.224:8888/rtp/239.3.1.51:9252
 http://111.162.205.166:8686/rtp/225.1.2.236:5002
 http://117.12.150.38:4022/rtp/225.1.2.236:5002
+http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226576/1.m3u8
+http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010107/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226094/1.m3u8
 #EXTINF:-1 tvg-name="优漫卡通" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/优漫卡通.png" group-title="儿童频道",优漫卡通
 http://106.53.99.30/tv/migu.php?id=ymkt
@@ -6364,7 +6359,6 @@ http://183.220.107.138:4022/rtp/239.10.0.131:5140
 http://112.109.206.112:9999/rtp/239.255.40.210:8208
 http://114.254.33.58:18888/rtp/239.3.1.128:8001
 http://114.254.39.224:8888/rtp/239.3.1.128:8001
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226139/index.m3u8
 http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221226139/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226139/1.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/金鹰纪实.png" group-title="综合频道",金鹰纪实
@@ -6455,6 +6449,8 @@ http://111.162.205.166:8686/rtp/225.1.1.124:5002
 http://117.12.150.38:4022/rtp/225.1.1.124:5002
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226572/1.m3u8
 http://[2409:8087:3c02:0021:0000:0001:0000:100a]:6410/shandong_cabletv.live.zte.com////CHANNEL00000334/index.m3u8?IASHttpSessionId=
+http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225595/index.m3u8?fmt=ts2hls
+http://[2409:8087:5e08:25::16]:6610/200000001898/460000089800010106/1.m3u8
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/快乐垂钓.png" group-title="综合频道",快乐垂钓
 http://113.101.245.14:9988/udp/239.77.0.145:5146
 http://171.213.203.158:4000/rtp/239.10.0.128:5140
@@ -6649,9 +6645,7 @@ http://111.162.205.166:8686/rtp/225.1.1.146:5002
 http://117.12.150.38:4022/rtp/225.1.1.146:5002
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031111/1.m3u8
 http://[2409:8087:5e08:25::4]:6610/000000001000/5000000011000031111/index.m3u8?channel-id=bestzb&Contentid=5000000011000031111&Ace
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225762/index.m3u8
 http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225762/index.m3u8
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221226155/index.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221226155/1.m3u8
 #EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/欢笑剧场.png" group-title="综合频道",欢笑剧场
 http://106.53.99.30/tv/migu.php?id=hxjc
@@ -6693,9 +6687,7 @@ http://222.82.206.236:8188/udp/238.125.5.61:5140
 http://111.162.205.166:8686/rtp/225.1.1.139:5002
 http://117.12.150.38:4022/rtp/225.1.1.139:5002
 http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000002000009455/1.m3u8
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225771/index.m3u8
 http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225771/index.m3u8
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225771/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225771/1.m3u8
 #EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/游戏风云.png" group-title="综合频道",游戏风云
 http://106.53.99.30/tv/migu.php?id=yxfy
@@ -6747,9 +6739,9 @@ http://223.167.230.34:4022/rtp/239.45.0.9:5140
 http://223.167.245.215:8001/rtp/239.45.0.9:5140
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225748/1.m3u8
 #EXTINF:-1 tvg-name="法治天地" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/法治天地.png" group-title="综合频道",法治天地
-http://171.116.216.113:10010/rtp/226.0.1.176:2100
 http://106.53.99.30/tv/migu.php?id=fztd
 http://106.53.99.30/tv/hot.php?id=fztd
+http://171.116.216.113:10010/rtp/226.0.1.176:2100
 http://171.213.203.158:4000/rtp/239.10.0.180:5140
 http://171.213.227.120:4000/rtp/239.10.0.180:5140
 http://183.220.107.138:4022/rtp/239.10.0.180:5140
@@ -6793,8 +6785,6 @@ http://117.12.150.38:4022/rtp/225.1.1.237:5002
 http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281
 http://[2409:8087:5e08:25::4]:6610/000000001000/9001547084732463424/index.m3u8?channel-id=bestzb&Contentid=9001547084732463424&Ace
 http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225994/index.m3u8
-http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225994/1.m3u8
-http://[2409:8087:1e01:20::3]:80/PLTV/11/224/3221225994/1.m3u8
 http://[2409:8087:1e02:20::10]/000000001000PLTV/11/224/3221225994/1.m3u8
 #EXTINF:-1 tvg-name="天元围棋" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/天元围棋.png" group-title="体育频道",天元围棋
 http://113.101.245.14:9988/udp/239.253.43.98:5146
@@ -6850,7 +6840,6 @@ http://106.53.99.30/tv/migu.php?id=jbty
 http://106.53.99.30/tv/hot.php?id=jbty
 #EXTINF:-1 tvg-name="超级体育" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/超级体育.png" group-title="体育频道",超级体育
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226232/1.m3u8
-http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226348/1.m3u8
 http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225622/2/index.m3u8
 http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010063/1.m3u8
 #EXTINF:-1 tvg-name="古装剧场" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/古装剧场.png" group-title="剧场频道",古装剧场
