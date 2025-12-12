@@ -6,7 +6,6 @@ http://221.198.198.213:8888/udp/225.1.1.120:5002
 http://222.95.175.5:58888/udp/239.49.8.19:9614
 http://180.157.233.109:4022/udp/239.45.3.145:5140
 http://220.176.219.18:9000/udp/239.252.219.200:5140
-http://38.75.136.137:98/gslb/dsdqpub/cctv1hd.m3u8?auth=testpub
 http://[2409:8087:1:20:20::29]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?servicetype=1&accountinfo=%7E%7EV2.0%7EI0Rkc6neBYgfpoJ1yud8Fw%7EPepnxHHB2d6Hk2dZWM77MyFlBN5q1KnYLvimM9pqT7Epd7QgO4HFWH0z34SUb2Vs%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3A20240420192714%2C%2C%2C20240420192714%2C%2C10001000275495%2C-1%2C0%2C1%2C-1%2C%2C2%2C2201300%2C%2C%2C2%2C%2C%2CEND&GuardEncType=2
 http://[2409:8087:1e01:23::10]:8112/000000000000/6000000001000029752/1.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV2.png" group-title="央视频道",CCTV2
@@ -17,14 +16,12 @@ http://113.101.245.153:9988/udp/239.77.1.158:5146
 http://222.95.175.5:58888/udp/239.49.8.50:9802
 http://220.176.219.18:9000/udp/239.252.220.183:5140
 http://221.198.198.213:8888/udp/225.1.1.133:5002
-http://38.75.136.137:98/gslb/dsdqpub/cctv2hd.m3u8?auth=testpub
 http://[2409:8087:1e01:23::10]:8112/000000001000/5000000011000031101/1.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV3.png" group-title="央视频道",CCTV3
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8
 http://222.95.175.5:58888/udp/239.49.8.74:8000
 http://220.176.219.18:9000/udp/239.252.219.252:5140
 http://221.198.198.213:8888/udp/225.1.1.158:5002
-http://38.75.136.137:98/gslb/dsdqpub/cctv3hd.m3u8?auth=testpub
 http://[2409:8087:1a01:df::4041]:80/TVOD/88888888/224/3221225799/main.m3u8
 http://[2409:8087:1a01:df::4041]/TVOD/88888888/224/3221225799/main.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8
@@ -39,7 +36,6 @@ http://180.157.233.109:4022/udp/239.45.0.2:5140
 http://222.95.175.5:58888/udp/239.49.8.51:9806
 http://220.176.219.18:9000/udp/239.252.220.184:5140
 http://221.198.198.213:8888/udp/225.1.1.150:5002
-http://38.75.136.137:98/gslb/dsdqpub/cctv4hd.m3u8?auth=testpub
 http://[2409:8087:1e01:23::10]:8112/000000001000/5000000011000031102/1.m3u8
 #EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV4欧洲.png" group-title="央视频道",CCTV4欧洲
 http://106.53.99.30/tv/hot.php?id=cctv4o
@@ -97,7 +93,6 @@ http://222.95.175.5:58888/udp/239.49.8.75:8000
 http://113.101.245.153:9988/udp/239.77.0.170:5146
 http://220.176.219.18:9000/udp/239.252.219.236:5140
 http://221.198.198.213:8888/udp/225.1.1.160:5002
-http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 http://[2409:8087:1e01:23::10]:8112/000000001000/5000000004000008885/1.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV5+.png" group-title="央视频道",CCTV5+
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226929/1.m3u8
@@ -112,7 +107,6 @@ http://180.157.233.109:4022/udp/239.45.1.70:5140
 http://222.95.175.5:58888/udp/239.49.8.76:8000
 http://220.176.219.18:9000/udp/239.252.219.237:5140
 http://47.108.29.179:8888/edge-cache02.live3.omd.sc96655.com/live/CCTV-6H265_4000.m3u8
-http://38.75.136.137:98/gslb/dsdqpub/cctv6hd.m3u8?auth=testpub
 http://[2409:8087:1e01:23::10]:8112/000000001000/5000000004000008886/1.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV7.png" group-title="央视频道",CCTV7
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8
@@ -141,7 +135,6 @@ http://223.240.163.85:8100/udp/238.1.78.240:7792
 http://220.176.219.18:9000/udp/239.252.220.186:5140
 http://113.101.245.153:9988/udp/239.77.1.160:5146
 http://47.108.29.179:8888/edge-cache02.live3.omd.sc96655.com/live/CCTV-9H265_4000.m3u8
-http://38.75.136.137:98/gslb/dsdqpub/cctv9hd.m3u8?auth=testpub
 http://[2409:8087:5804:11::411:1075]:8088/PLTV/81/224/3221226657/1.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV10.png" group-title="央视频道",CCTV10
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8
@@ -178,7 +171,6 @@ http://222.95.175.5:58888/udp/239.49.8.109:8000
 http://113.101.245.153:9988/udp/239.253.43.196:5146
 http://220.176.219.18:9000/udp/239.252.219.139:5140
 http://144.255.32.94:8288/rtp/239.21.2.3:5002
-http://38.75.136.137:98/gslb/dsdqpub/cctv13hd.m3u8?auth=testpub
 http://[2409:8087:1e01:23::10]:8112/000000001000/5000000011000031108/1.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV14.png" group-title="央视频道",CCTV14
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226947/1.m3u8
