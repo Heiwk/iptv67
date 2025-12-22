@@ -4192,7 +4192,6 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://[2409:8087:5e01:34::21]:6610/ZTE_CMS/08984400000000060000000000000319/index.m3u8
 #EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/厦门卫视.png" group-title="卫视频道",厦门卫视
 http://125.42.151.124:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-http://183.11.239.36:808/hls/17/index.m3u8
 http://113.106.171.234:8899/rtp/239.20.0.168:2134
 http://106.5.78.198:4022/rtp/239.252.219.75:5140
 http://120.40.60.44:1000/rtp/239.61.2.11:8060
@@ -5533,6 +5532,7 @@ http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/322122
 http://[2409:8087:5804:11::411:1075]:8088/PLTV/81/224/3221226719/1.m3u8
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰中文.png" group-title="港澳频道",凤凰中文
 http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pcc72.flv
+http://43.152.143.193/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pcc72.flv
 http://106.116.243.172:9999/rtp/239.254.201.2:5226
 http://27.184.65.181:58888/rtp/239.254.201.2:5226
 http://120.40.60.44:1000/rtp/239.61.2.184:9092
@@ -5558,6 +5558,7 @@ http://175.8.180.171:7878/udp/239.76.246.134:1234
 http://58.46.31.42:8188/udp/239.76.253.134:9000
 http://58.46.31.42:8188/udp/239.76.246.134:1234
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰资讯.png" group-title="港澳频道",凤凰资讯
+http://43.152.143.193/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pin72.flv
 http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pin72.flv
 http://106.116.243.172:9999/rtp/239.254.201.3:5227
 http://27.184.65.181:58888/rtp/239.254.201.3:5227
@@ -5585,6 +5586,7 @@ http://175.8.180.171:7878/udp/239.76.246.135:1234
 http://58.46.31.42:8188/udp/239.76.253.135:9000
 http://58.46.31.42:8188/udp/239.76.246.135:1234
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰香港.png" group-title="港澳频道",凤凰香港
+http://43.152.143.193/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701phk72.flv
 http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701phk72.flv
 http://42.92.195.203:10000/udp/239.255.30.123:8231
 #EXTINF:-1 tvg-name="凤凰电影" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰电影.png" group-title="港澳频道",凤凰电影
@@ -5592,6 +5594,7 @@ http://39.107.120.164:8080/live/diyp_fhdy.flv
 http://106.116.243.172:9999/rtp/239.254.201.1:5214
 http://27.184.65.181:58888/rtp/239.254.201.1:5214
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CHC动作电影.png" group-title="电影频道",CHC动作电影
+http://129.150.54.232:10001/yy/1382736823
 http://221.198.198.213:8888/udp/225.1.1.215:5002
 http://36.49.53.247:8800/rtp/239.37.0.186:5540
 http://106.5.78.198:4022/udp/239.252.219.85:5140
@@ -5692,7 +5695,6 @@ http://114.254.39.224:8888/rtp/239.3.1.95:8001
 http://[2409:8087:1:20:20::26]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226553/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EQaJ92NID2SpQlY6_VJVogg%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNOuQYJeiYEeFWTkFfE86Vq-%2CEND
 #EXTINF:-1 tvg-name="星空卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/星空卫视.png" group-title="电影频道",星空卫视
 http://39.107.120.164:8080/live/diyp_xingkong.flv
-http://111.221.137.155:44330/tsfile/live/0139_1.m3u8?key=txiptv
 http://171.213.146.177:8188/udp/239.93.0.156:2193
 http://171.213.149.222:8188/udp/239.93.0.156:2193
 http://171.213.149.89:8188/udp/239.93.0.156:2193
