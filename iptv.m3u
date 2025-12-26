@@ -5550,7 +5550,6 @@ http://58.46.31.42:8188/udp/239.76.253.134:9000
 http://58.46.31.42:8188/udp/239.76.246.134:1234
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰资讯.png" group-title="港澳频道",凤凰资讯
 http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pin72.flv
-http://43.152.143.193/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pin72.flv
 http://58.19.180.108:9981/stream/channelid/708272803?profile=pass
 http://106.116.243.172:9999/rtp/239.254.201.3:5227
 http://27.184.65.181:58888/rtp/239.254.201.3:5227
@@ -5586,8 +5585,8 @@ http://39.107.120.164:8080/live/diyp_fhdy.flv
 http://106.116.243.172:9999/rtp/239.254.201.1:5214
 http://27.184.65.181:58888/rtp/239.254.201.1:5214
 #EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CHC动作电影.png" group-title="电影频道",CHC动作电影
-http://129.150.54.232:10001/yy/1382736809
 http://129.150.54.232:10001/yy/1382736823
+http://129.150.54.232:10001/yy/1382736809
 http://36.49.53.247:8800/rtp/239.37.0.186:5540
 http://106.5.78.198:4022/udp/239.252.219.85:5140
 http://120.40.60.44:1000/rtp/239.61.3.16:9616
