@@ -106,7 +106,6 @@ http://112.27.235.94:8000/hls/7/index.m3u8
 http://120.198.95.220:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&down=1
 http://125.42.151.61:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2013693901&pid=600108442&q=fhd
-http://120.10.167.40:1234/624878396
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV7.png" group-title="央视频道",CCTV7
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/7/live.m3u8
@@ -122,7 +121,6 @@ http://183.223.157.33:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=
 http://122.224.58.42:85/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.184.46.85:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2024072001&pid=600004092&q=fhd
-http://120.10.167.40:1234/673168121
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV8.png" group-title="央视频道",CCTV8
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/8/live.m3u8
@@ -138,7 +136,6 @@ http://120.202.94.181:9446/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=
 http://125.42.151.61:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://122.224.58.42:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2029793001&pid=600001803&q=fhd
-http://120.10.167.40:1234/624878356
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV9.png" group-title="央视频道",CCTV9
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221227037/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/9/live.m3u8
@@ -153,7 +150,6 @@ http://113.15.109.216:59901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid
 http://222.169.85.8:9901/tsfile/live/0009_1.m3u8
 http://125.42.151.61:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 http://222.214.208.34:59901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-http://120.10.167.40:1234/673168140
 http://43.156.8.127:5050/ysp?id=2024078601&pid=600004078&q=fhd
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV10.png" group-title="央视频道",CCTV10
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8
@@ -169,7 +165,6 @@ http://125.42.151.61:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 http://122.224.58.42:85/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 http://112.27.235.94:8000/hls/11/index.m3u8
 http://61.184.46.85:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-http://120.10.167.40:1234/624878405
 http://43.156.8.127:5050/ysp?id=2024078701&pid=600001805&q=fhd
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV11.png" group-title="央视频道",CCTV11
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226914/1.m3u8
@@ -186,7 +181,6 @@ http://125.42.151.61:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 http://122.224.58.42:85/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 http://182.150.23.74:808/hls/11/index.m3u8
 http://43.156.8.127:5050/ysp?id=2027248701&pid=600001806&q=fhd
-http://120.10.167.40:1234/667987558
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV12.png" group-title="央视频道",CCTV12
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226462/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/12/live.m3u8
@@ -202,7 +196,6 @@ http://122.224.58.42:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 http://1.24.39.180:808/hls/12/index.m3u8
 http://61.184.46.85:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2027248801&pid=600001807&q=fhd
-http://120.10.167.40:1234/673168185
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV13.png" group-title="央视频道",CCTV13
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226568/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/13/live.m3u8
@@ -216,7 +209,6 @@ http://182.207.218.239:999/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=
 http://122.224.58.42:85/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.184.46.85:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 http://1.24.39.180:808/hls/13/index.m3u8
-http://120.10.167.40:1234/608807423
 http://43.156.8.127:5050/ysp?id=2029797201&pid=600001811&q=fhd
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV14.png" group-title="央视频道",CCTV14
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226947/1.m3u8
@@ -233,7 +225,6 @@ http://1.24.39.180:808/hls/14/index.m3u8
 http://182.207.218.239:999/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.184.46.85:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2027248901&pid=600001809&q=fhd
-http://120.10.167.40:1234/624878440
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/CCTV15.png" group-title="央视频道",CCTV15
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226460/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/15/live.m3u8
@@ -267,7 +258,6 @@ http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/322122631
 http://74.91.26.218:82/live/cctv17hd.m3u8
 http://183.11.239.36:808/hls/35/index.m3u8
 http://1.24.39.180:808/hls/61/index.m3u8
-http://120.10.167.40:1234/673168256
 http://43.156.8.127:5050/ysp?id=2027249401&pid=600001810&q=fhd
 #EXTINF:-1 tvg-name="兵器科技" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/兵器科技.png" group-title="央视频道",兵器科技
 http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
@@ -374,9 +364,8 @@ http://61.184.46.85:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.151.61:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 http://113.15.109.216:59901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.104.239.114:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-http://120.10.167.40:1234/651632648
-http://219.150.217.47:6610/PLTV1/980/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024054503&pid=600002483&q=fhd
+http://219.150.217.47:6610/PLTV1/980/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/深圳卫视.png" group-title="卫视频道",深圳卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/32/live.m3u8
@@ -391,8 +380,8 @@ http://120.202.94.181:9446/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=
 http://222.214.208.34:59901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.184.46.85:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://222.169.85.8:9901/tsfile/live/0126_1.m3u8
-http://219.150.217.47:6610/PLTV1/1240/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024061303&pid=600002481&q=fhd
+http://219.150.217.47:6610/PLTV1/1240/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/北京卫视.png" group-title="卫视频道",北京卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226436/1.m3u8
 http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009
@@ -407,7 +396,6 @@ http://112.27.235.94:8000/hls/27/index.m3u8
 http://182.207.218.239:999/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.13.170.98:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2024052703&pid=600002309&q=fhd
-http://120.10.167.40:1234/630287636
 http://219.150.217.47:6610/PLTV1/1020/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/广东卫视.png" group-title="卫视频道",广东卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8
@@ -423,9 +411,8 @@ http://61.184.46.85:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.151.61:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 http://124.116.183.146:9901/tsfile/live/0125_1.m3u8
 http://182.207.218.239:999/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-http://43.156.8.127:5050/ysp?id=2024060903&pid=600002485&q=fhd
-http://120.10.167.40:1234/608831231
 http://219.150.217.47:6610/PLTV1/1040/index.m3u8?icpid=dxrm1
+http://43.156.8.127:5050/ysp?id=2024060903&pid=600002485&q=fhd
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/广西卫视.png" group-title="卫视频道",广西卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226915/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/25/live.m3u8
@@ -440,8 +427,8 @@ http://36.32.174.67:60080/newlive/live/hls/38/live.m3u8
 http://113.15.109.216:59901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 http://171.14.89.228:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.13.170.98:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
-http://219.150.217.47:6610/PLTV1/1440/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024060703&pid=600002509&q=fhd
+http://219.150.217.47:6610/PLTV1/1440/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/东南卫视.png" group-title="卫视频道",东南卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226991/1.m3u8
 http://107.150.60.122/live/dnwshd.m3u8
@@ -483,8 +470,8 @@ http://218.13.170.98:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
 http://171.14.89.228:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.43.244.73:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
 http://222.142.72.181:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-http://43.156.8.127:5050/ysp?id=2024171503&pid=600002493&q=fhd
 http://219.150.217.47:6610/PLTV1/1180/index.m3u8?icpid=dxrm1
+http://43.156.8.127:5050/ysp?id=2024171503&pid=600002493&q=fhd
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/河南卫视.png" group-title="卫视频道",河南卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226525/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/37/live.m3u8
@@ -515,9 +502,8 @@ http://113.25.252.226:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&authid=
 http://61.184.46.85:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.104.239.114:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 http://124.116.183.146:9901/tsfile/live/0132_1.m3u8
-http://219.150.217.47:6610/PLTV1/1280/index.m3u8?icpid=dxrm1
-http://120.10.167.40:1234/947472496
 http://43.156.8.127:5050/ysp?id=2024171203&pid=600002508&q=fhd
+http://219.150.217.47:6610/PLTV1/1280/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/江西卫视.png" group-title="卫视频道",江西卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226243/1.m3u8
 http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub
@@ -548,8 +534,8 @@ http://182.207.218.239:999/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=
 http://122.224.58.42:85/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 http://171.14.89.228:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.13.170.98:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-http://219.150.217.47:6610/PLTV1/1260/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024061403&pid=600002516&q=fhd
+http://219.150.217.47:6610/PLTV1/1260/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/重庆卫视.png" group-title="卫视频道",重庆卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226569/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/28/live.m3u8
@@ -564,8 +550,8 @@ http://222.214.208.34:59901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid
 http://122.224.58.42:85/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 http://222.169.85.8:9901/tsfile/live/0142_1.m3u8
 http://36.32.174.67:60080/newlive/live/hls/34/live.m3u8
-http://43.156.8.127:5050/ysp?id=2024061103&pid=600002531&q=fhd
 http://219.150.217.47:6610/PLTV1/1340/index.m3u8?icpid=dxrm1
+http://43.156.8.127:5050/ysp?id=2024061103&pid=600002531&q=fhd
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/贵州卫视.png" group-title="卫视频道",贵州卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226497/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/35/live.m3u8
@@ -579,8 +565,8 @@ http://218.13.170.98:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 http://182.207.218.239:999/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.136.172.236:9901/tsfile/live/0120_1.m3u8
 http://61.136.172.236:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-http://219.150.217.47:6610/PLTV1/1160/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024061603&pid=600002490&q=fhd
+http://219.150.217.47:6610/PLTV1/1160/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/云南卫视.png" group-title="卫视频道",云南卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226928/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/33/live.m3u8
@@ -640,8 +626,8 @@ http://222.214.208.34:59901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid
 http://124.116.183.146:9901/tsfile/live/0128_1.m3u8
 http://61.184.46.85:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.13.170.98:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-http://219.150.217.47:6610/PLTV1/1220/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024054803&pid=600002475&q=fhd
+http://219.150.217.47:6610/PLTV1/1220/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/辽宁卫视.png" group-title="卫视频道",辽宁卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226500/1.m3u8
 http://107.150.60.122/live/lnwshd.m3u8
@@ -672,8 +658,8 @@ http://1.31.14.70:54321/hls/15/index.m3u8
 http://218.13.170.98:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.13.170.98:9901/tsfile/live/1006_1.m3u8
 http://124.116.183.146:9901/tsfile/live/0143_1.m3u8
-http://219.150.217.47:6610/PLTV1/1060/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2029797003&pid=600002498&q=fhd
+http://219.150.217.47:6610/PLTV1/1060/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/吉林卫视.png" group-title="卫视频道",吉林卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226886/1.m3u8
 http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
@@ -688,8 +674,8 @@ http://111.61.236.247:9081/hls/45/index.m3u8
 http://171.14.89.228:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.136.172.236:9901/tsfile/live/0116_1.m3u8
 http://222.142.72.181:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
-http://43.156.8.127:5050/ysp?id=2025561503&pid=600190405&q=fhd
 http://219.150.217.47:6610/PLTV1/1360/index.m3u8?icpid=dxrm1
+http://43.156.8.127:5050/ysp?id=2025561503&pid=600190405&q=fhd
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226919/1.m3u8
 http://182.207.218.239:999/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -717,8 +703,8 @@ http://222.142.72.181:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=
 http://183.11.239.36:808/hls/106/index.m3u8
 http://171.14.89.228:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.61.236.247:9081/hls/51/index.m3u8
-http://43.156.8.127:5050/ysp?id=2025608503&pid=600190737&q=fhd
 http://219.150.217.47:6610/PLTV1/1380/index.m3u8?icpid=dxrm1
+http://43.156.8.127:5050/ysp?id=2025608503&pid=600190737&q=fhd
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/山西卫视.png" group-title="卫视频道",山西卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226920/1.m3u8
 http://182.207.218.239:999/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -746,9 +732,8 @@ http://171.14.89.228:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.221.137.234:44330/tsfile/live/0116_2.m3u8?key=txiptv&playlive=0&authid=0
 http://120.196.235.42:9901/tsfile/live/1077_1.m3u8?key=txiptv&playlive=1&authid=0
 http://222.142.72.181:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-http://43.156.8.127:5050/ysp?id=2029795103&pid=600190400&q=fhd
 http://219.150.217.47:6610/PLTV1/1140/index.m3u8?icpid=dxrm1
-http://120.10.167.40:1234/738910838
+http://43.156.8.127:5050/ysp?id=2029795103&pid=600190400&q=fhd
 #EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/甘肃卫视.png" group-title="卫视频道",甘肃卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8
 http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
@@ -766,8 +751,8 @@ http://114.241.104.33:85/tsfile/live/51/1051_1.m3u8?key=txiptv
 http://182.207.218.239:999/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.61.236.247:9081/hls/49/index.m3u8
 http://222.142.72.181:9901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
-http://43.156.8.127:5050/ysp?id=2025559103&pid=600190406&q=fhd
 http://219.150.217.47:6610/PLTV1/1520/index.m3u8?icpid=dxrm1
+http://43.156.8.127:5050/ysp?id=2025559103&pid=600190406&q=fhd
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/新疆卫视.png" group-title="卫视频道",新疆卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226923/1.m3u8
 http://182.207.218.239:999/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -789,8 +774,8 @@ http://36.32.174.67:60080/newlive/live/hls/48/live.m3u8
 http://222.142.72.181:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
 http://120.196.235.42:9901/tsfile/live/1084_1.m3u8?key=txiptv&playlive=1&authid=0
 http://183.11.239.36:808/hls/64/index.m3u8
-http://219.150.217.47:6610/PLTV1/1640/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2025558003&pid=600190403&q=fhd
+http://219.150.217.47:6610/PLTV1/1640/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/三沙卫视.png" group-title="卫视频道",三沙卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226544/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/38/live.m3u8
@@ -906,9 +891,8 @@ http://61.184.46.85:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 http://125.42.151.61:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 http://113.15.109.216:59901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.104.239.114:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-http://120.10.167.40:1234/651632648
-http://219.150.217.47:6610/PLTV1/980/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024054503&pid=600002483&q=fhd
+http://219.150.217.47:6610/PLTV1/980/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/深圳卫视.png" group-title="山东专属频道",深圳卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226245/1.m3u8
 http://221.226.51.220:50081/newlive/live/hls/32/live.m3u8
@@ -923,8 +907,8 @@ http://120.202.94.181:9446/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=
 http://222.214.208.34:59901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 http://61.184.46.85:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://222.169.85.8:9901/tsfile/live/0126_1.m3u8
-http://219.150.217.47:6610/PLTV1/1240/index.m3u8?icpid=dxrm1
 http://43.156.8.127:5050/ysp?id=2024061303&pid=600002481&q=fhd
+http://219.150.217.47:6610/PLTV1/1240/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/北京卫视.png" group-title="山东专属频道",北京卫视
 http://122.70.160.24:2380/ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226436/1.m3u8
 http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009
@@ -939,7 +923,6 @@ http://112.27.235.94:8000/hls/27/index.m3u8
 http://182.207.218.239:999/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 http://218.13.170.98:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://43.156.8.127:5050/ysp?id=2024052703&pid=600002309&q=fhd
-http://120.10.167.40:1234/630287636
 http://219.150.217.47:6610/PLTV1/1020/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://kakaxi-1.github.io/IPTV/LOGO/凤凰中文.png" group-title="港澳频道",凤凰中文
 http://43.152.143.193:80/1.v.smtcdns.net/tvlive.fengshows.cn/live/0701pcc72.flv
